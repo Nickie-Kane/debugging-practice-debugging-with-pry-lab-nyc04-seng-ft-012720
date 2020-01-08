@@ -1,8 +1,13 @@
+require 'pry'
+# binding.pry
 class Person
+  # binding.pry
   attr_accessor :name, :candy_lover
-
+# binding.pry
   def initialize(name, candy_lover)
+    # binding.pry
     @name = name
+    # binding.pry
     @candy_lover = candy_lover
   end
 
@@ -27,3 +32,5 @@ class Person
     end
   end
 end
+end
+# binding.pry
